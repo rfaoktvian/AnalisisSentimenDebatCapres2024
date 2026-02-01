@@ -1,0 +1,9 @@
+google-api-python-client
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+nltk
+sastrawi
+requests
