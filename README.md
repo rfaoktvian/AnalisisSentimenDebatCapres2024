@@ -20,10 +20,10 @@ AnalisisSentimenDebatCapres2024/
 └── README.md # Dokumentasi proyek
 
 🧾 Dataset
-Sumber: Komentar YouTube Debat Capres 2024 TV OneNews (https://www.youtube.com/watch?v=UwrmlpZtVpE)
-Jumlah data: >10.000 komentar
-Bahasa: Indonesia
-Label sentimen:
+- Sumber: Komentar YouTube Debat Capres 2024 TV OneNews (https://www.youtube.com/watch?v=UwrmlpZtVpE)
+- Jumlah data: >10.000 komentar
+- Bahasa: Indonesia
+- Label sentimen:
 1. negative
 2. neutral
 3. positive
@@ -55,7 +55,7 @@ Tiga skema pelatihan Deep Learning diuji menggunakan Bidirectional LSTM (BiLSTM)
 -Dense Softmax
 
 👤 Author
-Nazly Rafa
+Nazly Rafa |
 Mahasiswa & Data Enthusiast
 
 ⭐ Catatan
