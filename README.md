@@ -33,7 +33,7 @@ Pelabelan dilakukan menggunakan pendekatan lexicon-based sentiment analysis baha
 
 🧠 Arsitektur Model Deep Learning
 
-Tiga skema pelatihan Deep Learning diuji menggunakan Bidirectional LSTM (BiLSTM):
+Proyek ini menguji 5 skema model yang terdiri dari Deep Learning dan Classical Machine Learning untuk membandingkan performa analisis sentimen.
 
 🔹 Model 1 (Baseline)
 - Embedding (128 dimensi)
@@ -53,6 +53,20 @@ Tiga skema pelatihan Deep Learning diuji menggunakan Bidirectional LSTM (BiLSTM)
 - Dense ReLU
 - Dropout (0.3)
 -Dense Softmax
+
+🔹 Model 4 – Naive Bayes + TF-IDF
+- Feature Extraction: TF-IDF Vectorizer
+- Algoritma: Multinomial Naive Bayes
+- Digunakan sebagai baseline classical machine learning
+- Cocok untuk evaluasi awal performa dataset teks
+
+🔹 Model 5 – Support Vector Machine (SVM) + CountVectorizer
+- Feature Extraction: CountVectorizer
+- Algoritma: Support Vector Machine (Linear Kernel)
+- Digunakan sebagai pembanding classical ML yang kuat
+- Menunjukkan performa yang kompetitif dibanding model deep learning
+
+Berdasarkan hasil evaluasi pada data uji, model BiLSTM Baseline menghasilkan performa terbaik dengan test accuracy di atas 86%, mengungguli model classical machine learning maupun varian BiLSTM lainnya. Model SVM dengan CountVectorizer tetap menunjukkan performa yang kompetitif sebagai baseline classical machine learning, namun secara keseluruhan pendekatan deep learning (BiLSTM) lebih efektif dalam menangkap konteks dan dependensi kata pada teks komentar berbahasa Indonesia
 
 👤 Author
 Nazly Rafa |
